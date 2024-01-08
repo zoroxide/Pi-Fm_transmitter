@@ -22,12 +22,11 @@ adding file to exce.
 ```
 sudo chmod +x fm_transmitter
 ```
-sudo sh install_rpi4.sh
-```
 after a  succssefull installing and connecting a wire to GPIO 4 to the GPIO, run a test with:
 ```
 sudo ./fm_transmitter -f 100.6 acoustic_guitar_duet.wav
 ```
+
 Notice:
 * -f frequency - Specifies the frequency in MHz, 100.0 by default if not passed
 * acoustic_guitar_duet.wav - Sample WAV file, you can use your own
