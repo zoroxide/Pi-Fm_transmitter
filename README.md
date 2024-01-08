@@ -12,11 +12,17 @@ This project uses the general clock output to produce frequency modulated radio 
 ## Installation and usage
 Install all required files by running this bash file, if your board is from Raspberry pi 1 to 3, use ```install_rpi1-3.sh```:
 ```
-sudo install_rpi1-3.sh
+sudo sh install_rpi1-3.sh
 ```
 or you have raspberry pi 4 use :
 ```
-sudo install_rpi4.sh
+sudo sh install_rpi4.sh
+```
+adding file to exce.
+```
+sudo chmod +x fm_transmitter
+```
+sudo sh install_rpi4.sh
 ```
 after a  succssefull installing and connecting a wire to GPIO 4 to the GPIO, run a test with:
 ```
