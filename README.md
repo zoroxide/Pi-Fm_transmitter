@@ -34,7 +34,12 @@ Other options:
 After transmission has begun, simply tune an FM receiver to chosen frequency, you should hear the playback.
 
 ### Supported audio formats
-You can transmitt uncompressed WAV (.wav) files directly or read audio data from stdin, eg. using MP3 file:
+note: only a wav file with these specification are supported:
+- Sample rate: 96000.0 Hz
+- Bit depth: 24 bit
+- Channels: Stereo
+
+You can transmit uncompressed WAV (.wav) files directly or read audio data from stdin, eg. using MP3 file:
 ```
 sudo apt-get install sox libsox-fmt-mp3
 sox example.mp3 -r 22050 -c 1 -b 16 -t wav - | sudo ./fm_transmitter -f 100.6 -
