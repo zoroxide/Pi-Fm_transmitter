@@ -4,13 +4,11 @@ Use the Raspberry Pi as an FM transmitter. Works on every Raspberry Pi board.
 
 Just get an FM receiver, connect a 20 - 40 cm plain wire to the Raspberry Pi's GPIO4 (PIN 7 on GPIO header) to act as an antenna, and you are ready for broadcasting.
 
-This project uses the general clock output to produce frequency modulated radio communication. It is based on an idea originally presented by [Oliver Mattos and Oskar Weigl](http://icrobotics.co.uk/wiki/index.php/Turning_the_Raspberry_Pi_Into_an_FM_Transmitter) at [PiFM project](http://icrobotics.co.uk/wiki/index.php/Turning_the_Raspberry_Pi_Into_an_FM_Transmitter).
-
 ## Note: this code is a modified version of [markondej/fm_transmitter](https://github.com/markondej/fm_transmitter), last visit is on 22-9-2023
 
 
 ## Installation and usage
-Install all required files by running this bash file, if your board is from Raspberry pi 1 to 3, use ```install_rpi1-3.sh```:
+Install all required files by running this bash file, if your board is from Raspberry pi 1 to 3, use ```install_rpi1-3.sh```, or if your board is Raspberry pi 4 use ```install_rpi4.sh```
 ```
 sudo sh install_rpi1-3.sh
 ```
