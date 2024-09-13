@@ -6,9 +6,6 @@ Just get an FM receiver, connect a 20 - 40 cm plain wire to the Raspberry Pi's G
 
 ![img1](https://github.com/zoroxide/Pi-Fm_transmitter/assets/72279810/43ff9291-ad54-4d39-89ff-68ad3c7be392)
 
-## Note: this code is a modified version of [markondej/fm_transmitter](https://github.com/markondej/fm_transmitter), last visit is on 22-9-2023
-
-
 ## Installation and usage
 Install all required files by running this bash file, if your board is from Raspberry pi 1 to 3, use ```install_rpi1-3.sh```, or if your board is Raspberry pi 4 use ```install_rpi4.sh```
 ```
